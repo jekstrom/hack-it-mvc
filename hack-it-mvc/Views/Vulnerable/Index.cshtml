@@ -1,0 +1,13 @@
+﻿@model hack_it_mvc.Models.VulnerableModel
+
+Vulnerable Index
+</br>
+
+@using (Html.BeginForm("Post", "Vulnerable")) {
+
+	@Html.TextBoxFor(m => m.Text)
+
+	<input type="submit" value="Submit"/>
+}
+<div>
+</div>
